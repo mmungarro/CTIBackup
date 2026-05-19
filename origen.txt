@@ -1,0 +1,9 @@
+# Archivo de configuración - RUTAS DE CARPETAS ORIGEN
+# Especifica las carpetas que deseas respaldar
+# Las líneas que comienzan con # son comentarios y se ignoran
+
+# Ejemplos (actualiza con tus rutas reales):
+# C:\datos\proyecto1
+# C:\datos\proyecto2
+# D:\documentos
+C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum

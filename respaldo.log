@@ -1,0 +1,137 @@
+======================================================================
+REPORTE DE RESPALDO DE CARPETAS
+======================================================================
+
+Fecha del respaldo: 19/05/2026 11:41:09
+Archivo de configuración origen: origen.txt
+Archivo de configuración destino: destino.txt
+Modo de copia: Solo cambios (con delta)
+
+----------------------------------------------------------------------
+RESUMEN
+----------------------------------------------------------------------
+Total de archivos copiados: 1
+Tamaño total copiado: 0.00 B
+Total de archivos omitidos: 108
+Total de errores: 0
+
+----------------------------------------------------------------------
+ARCHIVOS COPIADOS
+----------------------------------------------------------------------
+1. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Nuevo Documento de texto.txt
+   → c:\PT\Respaldo\Nuevo Documento de texto.txt (0.00 B)
+
+----------------------------------------------------------------------
+ARCHIVOS OMITIDOS (Sin cambios)
+----------------------------------------------------------------------
+1. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\2170419_BCS_1996-12-06_00001TITULO_HMME (1).jpeg
+2. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\2170419_BCS_1996-12-06_00001TITULO_HMME.jpeg
+3. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Agile_Thinking_Practitioner_Certificate.pdf
+4. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\AW_CV_Hector Mario Mungarro Echeverria.docx
+5. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\CoverLetter.docx
+6. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\CoverLetter.pdf
+7. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\CoverLetter_HectorMungarro.docx
+8. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Cuandoenviasuncv.png
+9. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Curriculum-admin-esp.docx
+10. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-en (2).pdf
+11. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-en-DESKTOP-SEUJU15.docx
+12. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-en.pdf
+13. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-eng_1.docx
+14. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-eng_1.pdf
+15. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-eng_2-PTL - copia.pdf
+16. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-eng_2-PTL.docx
+17. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-eng_2-PTL.pdf
+18. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-eng_2.docx
+19. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-eng_2.pdf
+20. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-eng_2m.pdf
+21. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-eng_PM-QA.docx
+22. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-eng_PM-QA.pdf
+23. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-eng_pt-tcs.docx
+24. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-eng_pt.pdf
+25. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-eng_PTL.pdf
+26. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-eng_QA_a.docx
+27. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-eng_QA_a.pdf
+28. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-eng_QA_a2.pdf
+29. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-eng_QA_a2_Complemento.docx
+30. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-eng_QA_a2_Complemento.pdf
+31. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-eng_QA_a3.pdf
+32. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-eng_QA_a4.pdf
+33. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-eng_QA_m.pdf
+34. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-eng_QA_w.docx
+35. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-eng_QA_w.pdf
+36. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-en_(3).pdf
+37. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-en_2.docx
+38. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-en_3.docx
+39. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-en_3.pdf
+40. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-en_Dic2023.pdf
+41. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-en_Dic2024.pdf
+42. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-en_Ene2024.pdf
+43. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-en_Ene2025.pdf
+44. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-en_Ene2025_2.pdf
+45. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-en_Feb2025.pdf
+46. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-en_Mar2025.pdf
+47. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-en_Mar2025_2.pdf
+48. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-en_Mar2025_2_1.pdf
+49. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-en_Mar2025_3.pdf
+50. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-en_May2024.pdf
+51. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-en_new.pdf
+52. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-en_PTL.docx
+53. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-en_PTL.pdf
+54. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Curriculum-es-1.docx
+55. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Curriculum-es-March2025.pdf
+56. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-esp_3.docx
+57. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-esp_DA_a.docx
+58. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-esp_DA_a.pdf
+59. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-esp_HectorMarioMungarro.pdf
+60. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-esp_QA_a.docx
+61. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-esp_QA_w.docx
+62. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-esp_QA_w.pdf
+63. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-esp_QA_w_2.pdf
+64. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-es_3.docx
+65. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-es_3.pdf
+66. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-es_Ago2024.pdf
+67. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-es_Ene2024.pdf
+68. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\curriculum-es_Oct2024.pdf
+69. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\CV_Hector Mungarro_2170419_QEA.docx
+70. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\CV_Hector Mungarro_2170419_QEA_Ene2025.docx
+71. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\EF SET Certificate_20250127.pdf
+72. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\foto_hmme.png
+73. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Id.png
+74. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Ing._Héctor_Mario_Mungarro_Echevarría[2].docx
+75. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\linode (3).docx
+76. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Scrum-Master-Certificate.bmp
+77. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Scrum-Master-Certificate.pdf
+78. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\scrum-master-professional-certificate-smpc.1.png
+79. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\API_TESTING-01-INTRODUCTION TO API 101-BASICS.pdf
+80. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\API_TESTING-09-HANDLING AUTHENTICATION AND AUTHORIZATION 201-INTERMEDIATE.pdf
+81. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\API_Testing_012_Response_Specification_Diploma_c04c4033-4fc4-4acd-bb47-e3fe0fb26bd4.pdf
+82. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\Basics_of_Python_Diploma_0c0cfad4-9fea-4986-ae22-5af55013cf53.pdf
+83. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\CONSTANCIA_SAT_JUN2023.pdf
+84. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\Coursera PQA9D23N3S6P- GenerativeAI.pdf
+85. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\Diploma_0ad7e681-dbca-4523-8a8c-4ab350ec0325_Selenium-POM.pdf
+86. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\Diploma_3805d77d-a2e8-4ceb-950c-c605120f8d2a_RTA.pdf
+87. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\ELRNG02077-Consumer-package-goods_a4dbabd0-2914-45ee-9c6c-dc60b1173168.pdf
+88. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\Foundations of Information Security Awareness_Diploma_30f6418a-ed88-461a-9590-f24c392b7fbc.pdf
+89. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\Foundations of Information Security Awareness_Diploma_46de1f30-0f77-492a-85d3-6a9c7b9c47e4.pdf
+90. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\ISTQB Certified Tester Foundation Level_UC-2011bfaa-a64b-478a-b94f-fe3d107c9f47.pdf
+91. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\OWASP_tOP_10_Diploma_254d72f4-2e92-459c-9252-ae3b5f65d04a.pdf
+92. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\Perfect_Job_interview English - 758bce08-5bd5-4388-9715-a0ead821bda8.pdf
+93. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\PT with Jmeter and Blazemeter -5f6f9f36-9388-4ebb-9577-bebe68acd1cd.pdf
+94. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\Red Team Ethical Hacker UC-3fe3127e-dfc0-4c42-9868-251523cb6ddc.pdf
+95. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\SAP ERP Fundamentals UC-09585c47-e5a3-4e54-8cda-3611d1908b3b.pdf
+96. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\Securing Google Cloud Platform_ Diploma_5dd95390-6bcf-44fa-82ba-0d49fee77a0a.pdf
+97. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\Selenium_WebDriver_Cucumber_UC-67ec4134-99f9-4d72-906b-62f12840ca2b.pdf
+98. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\Test Automation Fundations _ UC-8d440836-a6a4-4562-a1ef-62d868c31476.pdf
+99. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\UC-0eb2728c-c740-4845-8fd1-b23b0233d770.pdf
+100. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\UC-340c2ed4-9ab0-431a-beb3-de8b6a81339a-SQL.pdf
+101. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\UC-50de59dd-254a-4d67-9738-cb40faf914f4.pdf
+102. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\UC-5f449f5a-d8c3-426c-a557-e3b155378a6a.pdf
+103. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\UC-60ab4f1e-1167-4a50-bd00-6a5675a0f60e_ETL-Testing.pdf
+104. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\UC-a49c9329-3262-4de6-b928-ff80868e178b_SQL-Curso completo de SQL.pdf
+105. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\UC-b4d80cdb-b824-4c50-878d-2cb979592440.pdf
+106. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\UC-b6ad2f7c-aa61-48f6-b804-75c88cff4092.pdf
+107. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\UC-e3f4de92-ef99-48a7-b9a3-889758c4590b_2022.pdf
+108. C:\Users\mmung\OneDrive\Documentos\1.HMME\2.Curriculum\Learning Certificates\UC-f5e1fc88-e511-45eb-9f04-2e40300afc20.pdf
+
+======================================================================
+Fin del reporte
