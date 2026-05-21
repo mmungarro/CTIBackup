@@ -1,0 +1,10 @@
+# Archivo de configuración - RUTAS DE CARPETAS DESTINO
+# Especifica dónde deseas respaldar cada carpeta de origen
+# Debe tener la misma cantidad de líneas que origen.txt
+# Las líneas que comienzan con # son comentarios y se ignoran
+
+# Ejemplos (actualiza con tus rutas reales):
+# E:\backup\proyecto1
+# E:\backup\proyecto2
+# E:\backup\documentos
+c:\PT\Respaldo
