@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+#####21-05-2026####
+
 """
 Script de respaldo de carpetas con validación y log.
 Copia carpetas origen a destino recursivamente con soporte para deltas.
@@ -52,13 +54,15 @@ class BackupManager:
 
             with open(archivo, 'r', encoding='utf-8') as f:
                 for linea in f:
-                    ruta = linea.strip()
-                    if ruta and not ruta.startswith('#'):
-                        rutas.append(ruta)
-            return rutas
+                    linea = linea.strip()
+                    if not linea or linea.startswith('#'):
+                        continue
+                    rutas.append(linea)
+
         except Exception as e:
-            self.errores.append(f"ERROR al leer {archivo}: {e}")
-            return rutas
+            self.errores.append(f"ERROR al leer rutas desde {archivo}: {e}")
+
+        return rutas
 
     def _normalize_log_file(self, log_file):
         """Normaliza el nombre del archivo de log con fecha y hora."""
