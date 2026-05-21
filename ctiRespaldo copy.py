@@ -9,7 +9,6 @@ import os
 import sys
 import shutil
 import hashlib
-import time
 from datetime import datetime
 from pathlib import Path
 import argparse
@@ -18,7 +17,7 @@ import argparse
 class BackupManager:
     """Gestor de respaldo de carpetas con validación y registro."""
 
-    def __init__(self, origen_file, destino_file, log_file=None, recent_only=False, log_only_delta=False):
+    def __init__(self, origen_file, destino_file, log_file=None, recent_only=False):
         """
         Inicializa el gestor de respaldo.
 
@@ -27,20 +26,15 @@ class BackupManager:
             destino_file: Archivo con las rutas de carpetas destino
             log_file: Archivo para guardar el log (default: backup_log.txt)
             recent_only: Si True, solo copia archivos modificados recientemente
-            log_only_delta: Si True, en el log se incluyen solo los archivos copiados con delta
         """
         self.origen_file = origen_file
         self.destino_file = destino_file
-        self.log_file = self._normalize_log_file(log_file or "backup_log.txt")
+        self.log_file = log_file or "backup_log.txt"
         self.recent_only = recent_only
-        self.log_only_delta = log_only_delta
         self.archivos_copiados = []
         self.archivos_skipped = []
         self.errores = []
         self.tamaño_total = 0
-        self.start_time = None
-        self.end_time = None
-        self.execution_time_seconds = 0.0
 
     def leer_rutas(self, archivo):
         """Lee las rutas desde un archivo de configuración."""
@@ -52,23 +46,13 @@ class BackupManager:
 
             with open(archivo, 'r', encoding='utf-8') as f:
                 for linea in f:
-                    linea = linea.strip()
-                    if not linea or linea.startswith('#'):
-                        continue
-                    rutas.append(linea)
-
+                    ruta = linea.strip()
+                    if ruta and not ruta.startswith('#'):
+                        rutas.append(ruta)
+            return rutas
         except Exception as e:
-            self.errores.append(f"ERROR al leer rutas desde {archivo}: {e}")
-
-        return rutas
-
-    def _normalize_log_file(self, log_file):
-        """Normaliza el nombre del archivo de log con fecha y hora."""
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        path = Path(log_file)
-        if path.suffix:
-            return str(path.parent / f"{path.stem}_{timestamp}{path.suffix}")
-        return str(path.parent / f"{path.name}_{timestamp}")
+            self.errores.append(f"ERROR al leer {archivo}: {e}")
+            return rutas
 
     def validar_rutas(self):
         """Valida la existencia de archivos de configuración y rutas de carpetas."""
@@ -254,13 +238,10 @@ class BackupManager:
                 f.write("=" * 70 + "\n\n")
 
                 # Fecha y hora
-                f.write(f"Inicio de ejecución: {self.start_time.strftime('%d/%m/%Y %H:%M:%S')}\n")
-                f.write(f"Fin de ejecución: {self.end_time.strftime('%d/%m/%Y %H:%M:%S')}\n")
                 f.write(f"Fecha del respaldo: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}\n")
                 f.write(f"Archivo de configuración origen: {self.origen_file}\n")
                 f.write(f"Archivo de configuración destino: {self.destino_file}\n")
-                f.write(f"Modo de copia: {'Solo cambios (con delta)' if self.recent_only else 'Copia completa'}\n")
-                f.write(f"Modo de log: {'Solo archivos copiados con delta' if self.log_only_delta else 'Completo'}\n\n")
+                f.write(f"Modo de copia: {'Solo cambios (con delta)' if self.recent_only else 'Copia completa'}\n\n")
 
                 # Resumen
                 f.write("-" * 70 + "\n")
@@ -269,8 +250,7 @@ class BackupManager:
                 f.write(f"Total de archivos copiados: {len(self.archivos_copiados)}\n")
                 f.write(f"Tamaño total copiado: {self._formato_tamaño(self.tamaño_total)}\n")
                 f.write(f"Total de archivos omitidos: {len(self.archivos_skipped)}\n")
-                f.write(f"Total de errores: {len(self.errores)}\n")
-                f.write(f"Tiempo total de ejecución: {self._formato_tiempo(self.execution_time_seconds)}\n\n")
+                f.write(f"Total de errores: {len(self.errores)}\n\n")
 
                 # Archivos copiados
                 if self.archivos_copiados:
@@ -283,7 +263,7 @@ class BackupManager:
                     f.write("\n")
 
                 # Archivos omitidos
-                if self.archivos_skipped and not self.log_only_delta:
+                if self.archivos_skipped:
                     f.write("-" * 70 + "\n")
                     f.write("ARCHIVOS OMITIDOS (Sin cambios)\n")
                     f.write("-" * 70 + "\n")
@@ -318,18 +298,6 @@ class BackupManager:
             bytes_val /= 1024.0
         return f"{bytes_val:.2f} TB"
 
-    def _formato_tiempo(self, seconds):
-        """Convierte segundos en un formato legible."""
-        if seconds < 1:
-            return f"{seconds:.2f} s"
-        minutos, segundos = divmod(int(seconds), 60)
-        horas, minutos = divmod(minutos, 60)
-        if horas:
-            return f"{horas}h {minutos:02d}m {segundos:02d}s"
-        if minutos:
-            return f"{minutos}m {segundos:02d}s"
-        return f"{segundos}s"
-
     def ejecutar(self):
         """Ejecuta el proceso completo de respaldo."""
         print("\n" + "=" * 70)
@@ -346,18 +314,12 @@ class BackupManager:
 
         print("✓ Validación exitosa\n")
 
-        self.start_time = datetime.now()
-        inicio_perf = time.perf_counter()
-
         # Copiar carpetas
         print("Iniciando respaldo...")
         if self.copiar_carpetas():
             print(f"\n✓ Respaldo completado: {len(self.archivos_copiados)} archivo(s) copiado(s)")
         else:
             print("\n⚠ Respaldo completado sin cambios o con errores")
-
-        self.end_time = datetime.now()
-        self.execution_time_seconds = time.perf_counter() - inicio_perf
 
         # Generar log
         print("\nGenerando log...")
@@ -407,11 +369,6 @@ Ejemplos de uso:
         default='backup_log.txt',
         help='Nombre del archivo de log (default: backup_log.txt)'
     )
-    parser.add_argument(
-        '--delta-log',
-        action='store_true',
-        help='En el log incluir solo los archivos que se copiaron con delta'
-    )
 
     args = parser.parse_args()
 
@@ -420,8 +377,7 @@ Ejemplos de uso:
         args.origen,
         args.destino,
         log_file=args.log,
-        recent_only=args.recent,
-        log_only_delta=args.delta_log
+        recent_only=args.recent
     )
 
     exitoso = manager.ejecutar()
